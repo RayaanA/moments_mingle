@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
         page = GeneratorPage();
         break;
       case 1:
-        page = FavoritesPage();
+        page = Placeholder();
         break;
       case 2:
         page = Placeholder();
@@ -117,6 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       BottomNavigationBarItem(
                         icon: Icon(Icons.home),
                         label: 'Home',
+
                       ),
                       BottomNavigationBarItem(
                         icon: Icon(Icons.handshake),
@@ -141,6 +142,10 @@ class _MyHomePageState extends State<MyHomePage> {
                         selectedIndex = value;
                       });
                     },
+                    type: BottomNavigationBarType.fixed,
+                    showSelectedLabels: false,
+                    showUnselectedLabels: false,
+                    enableFeedback: false,
                   ),
                 )
               ],
