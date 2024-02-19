@@ -3,6 +3,13 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+import 'Screens/capture.dart';
+import 'Screens/feed.dart';
+import 'Screens/friends.dart';
+import 'Screens/profile.dart';
+import 'Screens/search.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,7 +33,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+/*
 class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
   var history = <WordPair>[];
@@ -57,7 +64,7 @@ class MyAppState extends ChangeNotifier {
     favorites.remove(pair);
     notifyListeners();
   }
-}
+}*/
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -196,7 +203,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
+/*
 class GeneratorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -401,3 +408,4 @@ class _HistoryListViewState extends State<HistoryListView> {
     );
   }
 }
+*/
