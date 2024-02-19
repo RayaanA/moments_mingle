@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "454919347",
+    "project_id": "moments-mingle-login123",
+    "storage_bucket": "moments-mingle-login123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454919347:android:f0726395088ff12da51cc6",
+        "android_client_info": {
+          "package_name": "com.example.moments_mingle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByzD5JB6fVzHnOtoKKDvx3YALkc0v2Tzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
